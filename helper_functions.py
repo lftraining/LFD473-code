@@ -13,14 +13,21 @@ def save_images(folder, search_term, count=10):
     if not os.path.exists(folder):
         os.mkdir(folder)
 
-    SEARCH_URL = "https://huggingface.co/api/experimental/images/search"
-
-    params = {"q": search_term, "license": "public", "imageType": "photo", "count": count}
+#    SEARCH_URL = "https://huggingface.co/api/experimental/images/search"
+#    params = {"q": search_term, "license": "public", "imageType": "photo", "count": count}
+    SEARCH_URL = "https://pixabay.com/api/"
+    params = {"q": search_term.replace(' ', '+'), 
+              "image_type": "photo", 
+              "per_page": count, 
+              "page": 1, 
+              "key": os.environ["PIXABAY_KEY"]}
 
     resp = requests.get(SEARCH_URL, params=params)
     if resp.status_code == 200:
-        content = resp.json()['value']
-        urls = [img['thumbnailUrl'] for img in content]
+#        content = resp.json()['value']
+#        urls = [img['thumbnailUrl'] for img in content]
+        content = resp.json()['hits']
+        urls = [img['previewURL'] for img in content]
 
         folder = os.path.join(folder, search_term)
         if not os.path.exists(folder):
