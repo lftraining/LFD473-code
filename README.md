@@ -12,7 +12,7 @@
 
   - [Lab 1B: Non-Linear Regression](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/labs/Lab%201B.ipynb) / [Solution](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/solutions/Solved%20Lab%201B.ipynb)
 
-- [Building Your First Datapipe](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter5.ipynb)
+- [Building Your First Hugging Face Dataset](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter5.ipynb)
 
   - [Lab 2: Price Prediction](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/labs/Lab%202.ipynb) / [Solution](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/solutions/Solved%20Lab%202.ipynb)
 
