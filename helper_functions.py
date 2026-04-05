@@ -106,3 +106,43 @@ def xml_to_csv(path):
                    'class', 'xmin', 'ymin', 'xmax', 'ymax']
     xml_df = pd.DataFrame(xml_list, columns=column_name)
     return xml_df
+
+def get_summarizer(model, tokenizer):
+	def summarizer(
+	    texts,
+	    max_length=128,
+	    min_length=30,
+	    num_beams=4,
+	    do_sample=False,
+	    truncation=True,
+	):
+	    single_input = isinstance(texts, str)
+	    if single_input:
+    		texts = [texts]
+
+	    batch = tokenizer(
+    		texts,
+    		return_tensors="pt",
+    		padding=True,
+    		truncation=truncation,
+	    ).to(model.device)
+
+	    model.eval()
+	    with torch.inference_mode():
+		output_ids = model.generate(
+		    **batch,
+		    max_new_tokens=max_length,
+		    min_new_tokens=min_length,
+		    num_beams=num_beams,
+		    do_sample=do_sample,
+		)
+
+	    summaries = tokenizer.batch_decode(
+    		output_ids,
+    		skip_special_tokens=True,
+    		clean_up_tokenization_spaces=True,
+	    )
+	    result = [{"summary_text": s} for s in summaries]
+	    return result[0] if single_input else result
+	
+    return summarizer
