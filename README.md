@@ -25,8 +25,8 @@
 - [Pretrained Models for Computer Vision](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter7.ipynb)
 
 - [Pretrained Models for Natural Language Processing](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter8.ipynb)
+  - [Lab 4: Sentiment Analysis](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/labs/Lab%204.ipynb) / [Solutions](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/solutions/Solved%20Lab%204.ipynb)
 
-- [Lab 4: Sentiment Analysis](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/labs/Lab%204.ipynb) / [Solutions](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/solutions/Solved%20Lab%204.ipynb)
 
 ## Part III: Computer Vision
 
@@ -34,7 +34,7 @@
 
 - [Fine-Tuning Pretrained Models for Computer Vision](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter10%20(GPU).ipynb)
 
-- [Serving Models with TorchServe](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter11.ipynb)
+- [Compiling, Exporting, and Serving PyTorch Models](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter11.ipynb)
 
 - [Datasets and Transformations for Object Detection and Image Segmentation](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter12.ipynb)
 
@@ -48,14 +48,13 @@
 
 ## Part IV: Natural Language Processing
 
-- [Word Embeddings and Text Classification](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter15.ipynb)
+- [Text Representations, Embeddings, and Retrieval](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter15%20(GPU).ipynb)
+- [Lab 6: Text Classification using Embeddings](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/labs/Lab%206.ipynb) / [Solutions](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/solutions/Solved%20Lab%206.ipynb)
+  - [Lab 7: Building and Evaluating a Semantic Search System](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/labs/Lab%207.ipynb) / [Solutions](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/solutions/Solved%20Lab%207.ipynb)
 
-  - [Lab 6: Text Classification](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/labs/Lab%206.ipynb) / [Solutions](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/solutions/Solved%20Lab%206.ipynb)
+- [Transformers and Autoregressive Language Models](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter16.ipynb)
 
-- [Contextual Word Embeddings with Transformers](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter16%20(GPU).ipynb)
+- [Working with Instruction-Tuned LLMs](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter17.ipynb)
 
-- [HuggingFace Pipelines for NLP Tasks](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter17%20(GPU).ipynb)
-
-  - [Lab 7: Document Q&A](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/labs/Lab%207.ipynb) / [Solutions](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/solutions/Solved%20Lab%207.ipynb)
-
-- [Question and Answer, Summarization, and LLMs](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter18%20(GPU).ipynb)
+- [Efficient Fine-Tuning of LLMs with LoRA and QLoRA](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/notebooks/Chapter18%20(GPU).ipynb)
+  - [Lab 8: Fine-Tuning an LLM for Structured Information Extraction](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/labs/Lab%208.ipynb) / [Solutions](https://colab.research.google.com/github/lftraining/LFD473-code/blob/master/solutions/Solved%20Lab%208.ipynb)
