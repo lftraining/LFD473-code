@@ -17,3 +17,5 @@
 [Lab 6](https://colab.research.google.com/github/lftraining/LFD473-code/blob/main/labs/Lab%206.ipynb)
 
 [Lab 7](https://colab.research.google.com/github/lftraining/LFD473-code/blob/main/labs/Lab%207.ipynb)
+
+[Lab 8](https://colab.research.google.com/github/lftraining/LFD473-code/blob/main/labs/Lab%208.ipynb)
